@@ -1,0 +1,278 @@
+* /*전체화면 꽉차게*/
+{
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------- 메인 페이지 head 부분 시작----------------------------*/
+.main-head /* 메인 페이지의 헤드 배경화면 */
+{
+    width: 100%;
+    height: 500px;
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ), url("img/bgMain.jpg");
+    background-size: cover;
+}
+
+nav /* 상단 네비게이션 레이아웃*/
+{
+    height: 100px;
+}
+
+#nav /* 상단 네비게이션 구성요소들*/
+{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+nav ul /* 상단 네비게이션 구성요소들2*/
+{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+}
+
+nav li /* 상단 네비게이션 구성요소들3*/
+{
+    float: left;
+    padding-right: 70px;
+}
+
+nav a /* 상단 네비게이션 구성요소들(텍스트)*/
+{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-restaurant /* 상단 네비게이션 자신의 현재 페이지 글자색상 변하게*/
+{
+    font-weight: 900;
+    color: #1b5ac2;
+}
+
+#main-logo /* 상단 네비게이션 좌측의 로고*/
+{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+#member-img /* 회원 정보를 열 수 있는 이미지 */
+{
+    width: 22px;
+    height: 30px;
+    margin-top: -3px;
+}
+
+.main-label/* 라벨 전체를 묶는 클래스*/
+{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+
+#main-label1 /* 메인 페이지의 라벨1*/
+{
+    padding-top: 80px;
+}
+
+.search-bar /*메인 페이지 검색창*/
+{
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 35px;
+    border: 1px solid #1b5ac2;
+    background: #fff;
+}
+
+#search-icon /* 검색창 아이콘*/
+{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+#searchBar-input /* 검색창 텍스트 입력란*/
+{
+    font-size: 22px;
+    width: 400px;
+    border: 0px;
+    padding: 13px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+    border-radius: 25px;
+    outline: none;
+    float: left;
+}
+
+#searchBar-btn /*검색창 검색버튼*/
+{
+    width: 150px;
+    height: 100%;
+    border: 0px;
+    background: #1b5ac2;
+    border-radius: 25px;
+    padding-left: 3px;
+    font-size: 22px;
+    outline: none;
+    color: #fff;
+    float: right;
+}
+/* ------------------------------------- 등록 페이지 head 부분 끝----------------------------*/
+/* ------------------------------------- 등록 페이지 mid 부분 시작----------------------------*/
+
+.title1 /* 게시글 등록 텍스트 */
+{
+    width: 100%;
+    margin-left: 120px;
+    color: #1b5ac2;
+}
+
+.main-mid /* 페이지 중앙 */
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.write-container
+{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.mb-3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.mb-3 label
+{
+    font-size: 22px;
+    color: #1b5ac2;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.mb-3 input
+{
+    height: 40px;
+    width: 800px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #BDBDBD;
+    text-indent: 10px;
+}
+
+.mb-3 input ::placeholder
+{
+    text-indent: 10px;
+}
+
+.mb-3 input :focus
+{
+    outline: 3px solid #9DCEFF;
+}
+
+#category
+{
+    font-size: 18px;
+    width: 800px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #BDBDBD;
+    text-indent: 10px;
+}
+
+#content
+{
+    width: 800px;
+    height: 80px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #BDBDBD;
+    font-family:sans-serif;
+    text-indent: 10px;
+}
+
+.write-container button
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #1b5ac2;
+    border: none;
+    color: #fff;
+}
+
+.container-button
+{
+    float: right;
+}
+
+/* ------------------------------------- 메인 페이지 bottom 부분 시작----------------------------*/
+
+.main-bottom /* 메인 페이지 맨 아래 */
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: #4B4B4B;
+    display: flex;
+}
+
+.main-bottom img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.main-bottom .bottom-title
+{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.main-bottom .bottom-member
+{
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+.main-bottom span
+{
+    font-size: 24px;
+    color: #BDBDBD;
+    margin-left: 10px;
+}
+
+.main-bottom p
+{
+    font-size: 30px;
+    color: #BDBDBD;
+}
+
+/* ------------------------------------- 메인 페이지 bottom 부분 끝----------------------------*/

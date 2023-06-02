@@ -1,0 +1,89 @@
+body /* 회원가입 박스 전체*/
+{
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ), url("img/login_bg.jpg");
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.signup-box /* 회원가입 입력창 배경박스 */
+{
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background-color: #C1A875;
+    border-radius: 7px;
+}
+
+h1 /* "회원가입" 텍스트*/
+{
+    text-align: center;
+    margin-top: -10px;
+}
+
+form /* "ID", "Password" 라벨과 아이디와 비밀번호 입력창, 로그인 버튼이 포함된 form*/
+{
+    width: 300px;
+    margin-left: 25px;
+}
+
+form label /* "ID", "Password" 텍스트 라벨*/
+{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+form input /* 아이디 비밀번호 입력창 */
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+}
+
+input[type="submit"] /* 회원가입 버튼*/
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: #857555;
+    color: white;
+    font-size: 18px;
+}
+
+#signupButton /* 로그인 버튼 중앙정령이 안되어서 살짝 오른쪽으로 옮기려고 추가함 */
+{
+    margin-left: 3px;
+}
+
+p /* 로그인 버튼 밑에 회원가입 페이지 이동을 위한 문구 */
+{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    color: #000000;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+p a /* 회원가입 페이지로 이동하는 하이퍼링크 색을 다르게 줌 */
+{
+    color: #1B5AC2;
+}
+
+#logo_img /* 로그인 입력창의 로고 이미지*/
+{
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    margin-left: 45px;
+}

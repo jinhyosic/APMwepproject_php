@@ -1,0 +1,378 @@
+* /*전체화면 꽉차게*/
+{
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------- 메인 페이지 head 부분 시작----------------------------*/
+.main-head /* 메인 페이지의 헤드 배경화면 */
+{
+    width: 100%;
+    height: 500px;
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ), url("img/bgMain.jpg");
+    background-size: cover;
+}
+
+nav /* 상단 네비게이션 레이아웃*/
+{
+    height: 100px;
+}
+
+#nav /* 상단 네비게이션 구성요소들*/
+{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+ul /* 상단 네비게이션 구성요소들2*/
+{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+}
+
+li /* 상단 네비게이션 구성요소들3*/
+{
+    float: left;
+    padding-right: 70px;
+}
+
+a /* 상단 네비게이션 구성요소들(텍스트)*/
+{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-home /* 상단 네비게이션 자신의 현재 페이지 글자색상 변하게*/
+{
+    font-weight: 900;
+    color: #1b5ac2;
+}
+
+#main-logo /* 상단 네비게이션 좌측의 로고*/
+{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+#member-img /* 회원 정보를 열 수 있는 이미지 */
+{
+    width: 22px;
+    height: 30px;
+    margin-top: -3px;
+}
+
+.main-label/* 라벨 전체를 묶는 클래스*/
+{
+    text-align: center;
+}
+
+.main-label p /* 메인 페이지의 라벨*/
+{
+    font-size: 35px;
+    color: #fff;
+}
+
+#main-label1 /* 메인 페이지의 라벨1*/
+{
+    padding-top: 80px;
+}
+
+.search-bar /*메인 페이지 검색창*/
+{
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 35px;
+    border: 1px solid #1b5ac2;
+    background: #fff;
+}
+
+#search-icon /* 검색창 아이콘*/
+{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.search-bar input /* 검색창 텍스트 입력란*/
+{
+    font-size: 22px;
+    width: 400px;
+    border: 0px;
+    padding: 13px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+    border-radius: 25px;
+    outline: none;
+    float: left;
+}
+
+.search-bar button /*검색창 검색버튼*/
+{
+    width: 150px;
+    height: 100%;
+    border: 0px;
+    background: #1b5ac2;
+    border-radius: 25px;
+    padding-left: 3px;
+    font-size: 22px;
+    outline: none;
+    color: #fff;
+    float: right;
+}
+/* ------------------------------------- 메인 페이지 head 부분 끝----------------------------*/
+
+/* ------------------------------------- 메인 페이지 mid 부분 시작----------------------------*/
+
+.main-mid /*메인 페이지 중앙의 전체 레이아웃*/
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#menu-title1 /* 첫번째 카테고리의 타이틀*/
+{
+    width: 100%;
+    margin-left: 120px;
+    color: #1b5ac2;
+}
+
+.category1 /* 사진을 보여주는 카테고리의 전체 사이즈*/
+{
+    width: 100%;
+    height: 520px;
+    margin-left: 130px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.banner /*첫 번째 배너 (위아래 사진이 한묶음)*/
+{
+    width: 370px;
+    height: 520px;
+    margin-left: 30px;
+    float: left;
+}
+
+.banner1 /*첫 번째 배너의 상단 요소*/
+{
+    width: 370px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.banner-link /*첫 번째 배너의 상단의 링크*/
+{
+    width: 370px;
+    height: 230px;
+}
+
+.banner-container/*첫 번째 배너의 상단 요소의 이미지*/
+{
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 230px;
+}
+
+.banner-container img /*첫 번째 배너의 상단 요소의 이미지*/
+{
+    width: 370px;
+    height: 230px;
+}
+
+.overlay /* 이미지위에 레이아웃 하나를 덧씌워 마우스 오버효과 구현*/
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        )
+}
+
+.banner-container:hover .overlay /* 이미지위에 레이아웃 하나를 덧씌워 마우스 오버효과 구현*/
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+        )
+}
+
+.banner-title /*배너 위에 올라가있는 텍스트의 타이틀*/
+{
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.banner-content /*배너 위에 올라가있는 텍스트의 내용*/
+{
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.mid-line /*카테고리 사이를 나누는 줄*/
+{
+    border: 1px solid #E1E1E1;
+}
+
+/*-----카테고리 두번째 시작점------*/
+
+#menu-title2 /* 두번째 카테고리의 타이틀*/
+{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 120px;
+    color: #1b5ac2;
+}
+
+.chatBox-title
+{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 120px;
+    color: #1b5ac2;
+}
+
+.chatBox-layout
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#chatbox /* 대화창 css*/
+{
+    height: 350px;
+    width: 800px;
+    overflow-y: scroll;
+    border: 3px solid #BDBDBD;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#chatbox p /* 대화창 css */
+{
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.inputBox
+{
+    margin-top: 10px;
+    width: 820px;
+    border: 3px solid #BDBDBD;
+    border-radius: 8px;
+}
+
+.inputBox #messageInput
+{
+    height: 40px;
+    width: 75%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+.inputBox #enter
+{
+    border-radius: 8px;
+    background-color: #1b5ac2;
+    border: none; 
+    height: 42px;
+    width: 20%;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 1px;
+    margin-left: 35px;
+}
+
+/* ------------------------------------- 메인 페이지 mid 부분 끝----------------------------*/
+
+/* ------------------------------------- 메인 페이지 bottom 부분 시작----------------------------*/
+
+.main-bottom /* 메인 페이지 맨 아래 */
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: #4B4B4B;
+    display: flex;
+}
+
+.main-bottom img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.main-bottom .bottom-title
+{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.main-bottom .bottom-member
+{
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+.main-bottom span
+{
+    font-size: 24px;
+    color: #BDBDBD;
+    margin-left: 10px;
+}
+
+.main-bottom p
+{
+    font-size: 30px;
+    color: #BDBDBD;
+}
+
+/* ------------------------------------- 메인 페이지 bottom 부분 끝----------------------------*/
+

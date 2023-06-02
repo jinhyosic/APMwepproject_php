@@ -1,0 +1,280 @@
+* /*전체화면 꽉차게*/
+{
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------- 메인 페이지 head 부분 시작----------------------------*/
+.main-head /* 메인 페이지의 헤드 배경화면 */
+{
+    width: 100%;
+    height: 500px;
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ), url("img/add_restaurant_bg.jpg");
+    background-size: cover;
+}
+
+nav /* 상단 네비게이션 레이아웃*/
+{
+    height: 100px;
+}
+
+#nav /* 상단 네비게이션 구성요소들*/
+{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+nav ul /* 상단 네비게이션 구성요소들2*/
+{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+}
+
+nav li /* 상단 네비게이션 구성요소들3*/
+{
+    float: left;
+    padding-right: 70px;
+}
+
+nav a /* 상단 네비게이션 구성요소들(텍스트)*/
+{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-restautant /* 상단 네비게이션 자신의 현재 페이지 글자색상 변하게*/
+{
+    font-weight: 900;
+    color: #1b5ac2;
+}
+
+#main-logo /* 상단 네비게이션 좌측의 로고*/
+{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+#member-img /* 회원 정보를 열 수 있는 이미지 */
+{
+    width: 22px;
+    height: 30px;
+    margin-top: -3px;
+}
+
+.main-label/* 라벨 전체를 묶는 클래스*/
+{
+    text-align: center;
+}
+
+#main-label1 /* 메인 페이지의 라벨*/
+{
+    padding-top: 80px;
+    font-size: 35px;
+    color: #fff;
+}
+
+#main-label2 /* 메인 페이지의 라벨*/
+{
+    font-size: 35px;
+    color: #fff;
+}
+
+/*------ 맛집 post 시작점 ------*/
+
+.main-mid /*페이지 중간부분의 전체 레이아웃 */
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.menu-title1 /* input-box 위의 타이틀 */
+{
+    width: 100%;
+    padding-left: 120px;
+    color: #1b5ac2;
+}
+
+.post-list /* 매장 등록을 위한 요소를 모아둔 상자 */
+{
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    margin-left: 220px;
+}
+
+.post /* 이미지와 타이틀을 감싸는 post 박스*/
+{
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px #D8D8D8;
+    float: left;
+    margin-left: 50px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.post:hover /* post 마우스 오버 효과 */
+{
+    width: 320px;
+    height: 420px;
+}
+
+
+.post .main-img /* post 내부의 이미지*/
+{
+    height: 50%;
+    width: 90%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.post-title /* post 내부의 제목 레이아웃 */
+{
+    margin-top: 3%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post span /* post 내부의 제목 */
+{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    color: black;
+}
+
+.post-content /* post 내부의 내용 레이아웃 */
+{
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3 ;
+    -webkit-box-orient: vertical;
+}
+
+.post .content /* post 내부의 내용 */
+{
+    font-size: 20px;
+    color: black;
+}
+
+.post .hit
+{
+    bottom: 0;
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post .hit img
+{
+    height: 50%;
+    width: auto;
+    object-fit: cover;
+}
+
+.post .hit p
+{
+    font-size: 12px;
+    color: #BDBDBD;
+    margin-left: 5px;
+}
+
+.mid-line /*카테고리 사이를 나누는 줄*/
+{
+    border: 1px solid #E1E1E1;
+}
+
+.menu-title2 /* 전체 게시물의 타이틀 */
+{
+    width: 100%;
+    padding-left: 120px;
+    margin-top: 50px;
+    color: #1b5ac2;
+}
+
+.write-list
+{
+    width: 100%;
+    height: 700px;
+}
+
+/* ------------------------------------- 메인 페이지 bottom 부분 시작----------------------------*/
+
+.main-bottom /* 메인 페이지 맨 아래 */
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: #4B4B4B;
+    display: flex;
+}
+
+.main-bottom img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.main-bottom .bottom-title
+{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.main-bottom .bottom-member
+{
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+.main-bottom span
+{
+    font-size: 24px;
+    color: #BDBDBD;
+    margin-left: 10px;
+}
+
+.main-bottom p
+{
+    font-size: 30px;
+    color: #BDBDBD;
+}
+
+/* ------------------------------------- 메인 페이지 bottom 부분 끝----------------------------*/
+
+
+
+
+
+
+

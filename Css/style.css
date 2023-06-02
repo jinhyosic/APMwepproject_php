@@ -1,0 +1,36 @@
+body {
+  background-color: #FAF4C0;
+  background-image: url("img/bg.png");
+  background-size: 400px;
+  background-repeat: repeat;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+  width: 360px;
+  height: 800px;
+  margin: auto;
+  background-color: #FFE08C;
+  border-radius: 7px;
+}
+
+.info-box {
+  width: 360px;
+  height: 870px;
+  margin: auto;
+  border-radius: 7px;
+  background-color: #FFE08C;
+}
+
+h4 {
+  text-align: center;
+}
+
+#navigationbar {
+background-color: #FFE08C;
+border-radius: 7px;
+}
+
+.nav-item {
+
+}

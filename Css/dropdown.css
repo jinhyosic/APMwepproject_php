@@ -1,0 +1,48 @@
+  /*드롭다운.*/
+    .dropdown
+    {
+      position : relative;
+      display : inline-block;
+    }
+    
+    .dropdown-content
+    {
+      display : none;
+      position : absolute;
+      z-index : 1; /*다른 요소들보다 앞에 배치*/
+      margin-top : 30px;
+    }
+
+    .dropdown-content a
+    {
+      height: 50px;
+      display : block;
+      border: 1px solid #bdbdbd;
+    }
+
+    .dropdown-content a p
+    {
+      margin-top: 10px;
+      color: #1b5ac2;
+      font-weight: 700;
+    }
+
+    .dropdown:hover .dropdown-content 
+    {
+      height: auto;
+      width: 100px;
+      margin-top: 30px;
+      margin-left: -40px;
+      display: block;
+      background-color: #fff;
+    }
+
+    .dropdown-content :hover
+    {
+      background-color: #1b5ac2;
+    }
+
+    .dropdown-content :hover p
+    {
+      color: #fff;
+    }
